@@ -1,0 +1,46 @@
+body{
+    background-image: url("weather.jpg") ;
+    background-position: top left;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 25px;
+}
+h1:hover{
+    color: orange;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 40;
+}
+#city{
+    margin-left: 43%;
+
+}
+#list{
+    font-size: 30px;
+    margin-left: 90px;
+}
+.search{
+    display: list-item;
+}
+#button{
+    margin-right: 0%;
+}
+button:hover{
+    color: cornflowerblue;
+}
+p{
+    text-align: center;
+    color: orange;
+    padding: 40px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: oblique;
+}
