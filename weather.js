@@ -6,7 +6,7 @@ console.log(city)
 let od_key = "d1b29b851b95cf1730fde1939c50f331";
 
 button.addEventListener('click',function (){
-    fetch('https:/api.openweathermap.org/data/2.5/weather?q='+city.value+'&appid=d1b29b851b95cf1730fde1939c50f331')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+city.value+'&appid=d1b29b851b95cf1730fde1939c50f331')
     .then(res => res.json())
     .then(data => document.getElementById('me').innerHTML=(date+'<br>City is: '+data['name'] + 
     '<br> Maximum Temparature: ' +data['main']['temp_max']+' F' + '<br> Minimum Temparature: '
